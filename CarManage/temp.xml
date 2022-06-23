@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 有头有尾 有开始标签，就有闭合标签  xml用来存储数据，
+标签可以任意定义（不能中文）
+html是显示数据，所以有自己的规则
+xml很灵活 人性化 安卓手机经常发现xml 并且支持很多语言如C
+用于存储数据，QT的.ui文件也是xml文件
+json也是类似于xml的--!>
+<root/>
+	<stu id="1">
+		<name>mike</name>
+		<sex>female</sex>
+		<score>10</score>
+	</stu>
+		<stu id="2">
+			<name>miing</name>
+			<sex>female</sex>
+			<score>13</score>
+	</stu>
+<root>
+<info>
+</info>
+
+.ui进行任何修改，都会重新生成一个.ui（即xml文件）
+所以ui界面进行修改，xml文件会改变，直接改动xml，ui也会变
